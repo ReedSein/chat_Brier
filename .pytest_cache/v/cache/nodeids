@@ -1,1 +1,23 @@
-
+[
+  "tests/test_cooldown_manager.py::TestAttentionDecreaseConsistency::test_attention_decrease_on_no_reply",
+  "tests/test_cooldown_manager.py::TestAttentionDecreaseConsistency::test_cooldown_triggered_on_high_attention_no_reply",
+  "tests/test_cooldown_manager.py::TestConfigurationParameterLoading::test_config_parameters_affect_behavior",
+  "tests/test_cooldown_manager.py::TestConfigurationParameterLoading::test_config_parameters_loaded_correctly",
+  "tests/test_cooldown_manager.py::TestConfigurationParameterLoading::test_default_config_values_when_not_provided",
+  "tests/test_cooldown_manager.py::TestConfigurationParameterLoading::test_max_duration_affects_timeout_release",
+  "tests/test_cooldown_manager.py::TestCooldownAttentionListSync::test_cooldown_sync_with_attention_list",
+  "tests/test_cooldown_manager.py::TestCooldownAttentionListSync::test_on_attention_user_removed",
+  "tests/test_cooldown_manager.py::TestCooldownBlocksAttentionIncrease::test_cooldown_blocks_attention_increase",
+  "tests/test_cooldown_manager.py::TestCooldownPersistenceRoundTrip::test_persistence_round_trip",
+  "tests/test_cooldown_manager.py::TestCooldownReleaseBoundaryConditions::test_release_fails_when_session_not_exists",
+  "tests/test_cooldown_manager.py::TestCooldownReleaseBoundaryConditions::test_release_fails_when_user_not_in_attention_list",
+  "tests/test_cooldown_manager.py::TestCooldownReleaseBoundaryConditions::test_release_fails_when_user_not_in_cooldown",
+  "tests/test_cooldown_manager.py::TestCooldownReleaseRestoresAttention::test_cooldown_release_restores_attention_increase",
+  "tests/test_cooldown_manager.py::TestCooldownReleaseTriggerCondition::test_cooldown_release_on_reply_trigger",
+  "tests/test_cooldown_manager.py::TestCooldownReleaseTriggerCondition::test_cooldown_release_only_affects_trigger_user",
+  "tests/test_cooldown_manager.py::TestCooldownReleaseUserIdentityValidation::test_cooldown_release_validates_user_identity",
+  "tests/test_cooldown_manager.py::TestCooldownSessionClearSync::test_clear_all_cooldown",
+  "tests/test_cooldown_manager.py::TestCooldownSessionClearSync::test_clear_session_cooldown",
+  "tests/test_cooldown_manager.py::TestCooldownTimeoutAutoRelease::test_cooldown_timeout_auto_release",
+  "tests/test_cooldown_manager.py::TestCooldownTriggerCondition::test_cooldown_trigger_threshold"
+]

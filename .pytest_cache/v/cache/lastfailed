@@ -1,0 +1,3 @@
+{
+  "tests/test_cooldown_manager.py::TestConfigurationParameterLoading::test_max_duration_affects_timeout_release": true
+}
